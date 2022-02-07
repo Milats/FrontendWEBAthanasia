@@ -29,7 +29,6 @@ export class adminLoginComponent implements OnInit {
       response => {
           if(response.success){
               this.router.navigate(["/home"]);
-              location.reload();
           }
       });
   }
